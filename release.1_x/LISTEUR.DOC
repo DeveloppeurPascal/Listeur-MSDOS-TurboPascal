@@ -1,0 +1,144 @@
+                              LISTEUR
+
+     Ce programme est en SHAREWARE, vous pouvez le copier et le
+distribuer autour de vous (sans en modifier ni la doc, ni
+l'ex‚cutable). Si vous utilisez ce logiciel, vous devez
+imp‚rativement envoyer 100 Francs Fran‡ais … son auteur. En
+‚change vous obtiendrez une licence d'utilisation ainsi que la
+derniŠre version... et plusieurs mises … jour.
+
+     Les docs de chaque version suivent, la compatibilit‚
+ascendante est totale: ce qui est dit pour une version est valable
+pour les suivantes (sauf pr‚cision contraire).
+
+******************************************************************
+   Version 1.1: (13/01/1991)
+
+* Utilisation du menu:
+     - D‚placez le cadre de s‚lection avec les flŠches du curseur;
+     - Validez votre choix en appuyant sur RETURN.
+
+* Comment imprimer un document ?
+     - Commencez par choisir 'Nom du fichier', mettez  le  nom  du 
+fichier d‚sir‚, ou RETURN s'il y est d‚j… par d‚faut.
+     -  Choisissez  le  type  de  papier  d‚sir‚,  la  taille  des 
+feuilles...
+     - Indiquez au programme les messages de haut  et  de  bas  de 
+page que vous d‚sirez.
+     - S‚lectionnez l'option 'Impression' et attendez.
+
+******************************************************************
+   Version 1.2: (26/01/1991)
+
+* Les messages de haut et de bas de page ont ‚t‚ modifi‚s, si vous 
+y tapez: - '$' vous aurez le num‚ro de page courante … la place;
+         - '#' vous aurez le nom du fichier … la place.
+
+* L'impression des lignes  texte  comportant  plus  de  caractŠres 
+qu'une ligne sur l'imprimante est d‚sormais possible.
+
+******************************************************************
+   Version 1.3: (09/02/1991)
+
+* Vous pouvez passer  les  noms  des  fichiers  par  la  ligne  de 
+commande du DOS, LISTEUR les  imprimera  dŠs  que  vous  choisirez 
+l'option 'Impression' dans le menu. Les jokers '*' et '?' ne  sont 
+pas autoris‚s.
+
+* Les bugs dus aux  lignes  de  plus  de  80  caractŠres  ont  ‚t‚ 
+corrig‚s, les sauts de page se font tous seuls mˆme en coupant une 
+ligne en cours d'impression.
+
+* De nouvelles options dans le menu ont fait leur apparition:
+   - 'CaractŠre de fin de ligne':
+          Si vous mettez cette option sur ON,  LISTEUR  mettra  un 
+caractŠre de fin de ligne sur le listing (… l'endroit o— ‚tait  la 
+fin de la ligne dans  le  fichier  texte  =  place  de  la  touche 
+RETURN).
+   - 'Num‚rotation du listing':
+          Cette option va ins‚rer un num‚ro devant chaque ligne de 
+votre fichier lors de l'impression.
+
+******************************************************************
+   Version 1.4: (28/02/1991)
+
+* Nouvelles directives pour les messages  en  haut  et  en  bas  de 
+chaque page: - '$D' ou '$d' est remplac‚ par la date (JJ/MM/AA);
+             - '$F' ou '$f' est remplac‚ par le nom du fichier;
+             - '$P' ou '$p' est remplac‚ par le num‚ro de la  page 
+en cours d'impression;
+             - '$T' ou '$t' est remplac‚ par l'heure (HH:MM:SS).
+ Les directives '$' et '#' sont supprim‚es.
+
+* Le programme accepte d‚sormais les jokers '*' et '?' lors de  la 
+saisie du nom des fichiers … imprimer (mais aussi dans la ligne de 
+commande du DOS).
+
+******************************************************************
+   LISTEUR 1.5: (09/03/1991)
+
+* Je viens de rajouter une pause durant  l'impression:  en  effet, 
+lorsque nous sommes plusieurs … se partager la  meme  imprimante, 
+et que l'un d'entre nous imprime de longs fichiers, il  peut  etre 
+utile de temps en temps de l'obliger …  laisser  l'imprimante  aux 
+autres sans pour autant qu'il ait  …  tout  reprendre  plus  tard. 
+C'est ainsi que l'appuit sur la  touche  ESCape  permet  d'arr‚ter 
+l'imprimante en haut de page  (ou  avant  d'ins‚rer  une  nouvelle 
+feuille en feuille … feuille).
+
+* La touche ESCape ne fonctionnera qu'en papier continu, en effet, 
+en feuille … feuille cette pause ne sert … rien  car  l'ordinateur 
+attend que vous  ins‚riez  une  feuille  avant  de  continuer  son 
+travail.
+
+*******************************************************************
+   LISTEUR 1.6: (07/05/1991)
+
+*  Voici  les  modifications apport‚es aux anciennes versions de ce 
+programme:
+     - Nouvelles directives pour les hauts et bas de page:
+          $E est remplac‚ par l'extension du fichier imprim‚
+          $N est remplac‚ par le nom du fichier (sans son extension)
+     - Nouveaux menus:
+          - 'Date' et 'Heure' permettent de modifier l'heure et la date 
+en cours d'execution du programme.
+          - 'Num‚rotation continue' permet de num‚roter chaque fichier  … 
+partir de la premiŠre page, ou … la suite du  fichier  pr‚c‚dent.  (Cette 
+option ne sert que si vous imprimez  plusieurs  fichiers  dans  un  ordre 
+pr‚cis).
+
+* J'ai enlev‚ l'option demandant le nombre maximal de  lignes  par  page, 
+en effet elle ne servait pas … grand chose. Le  programme  est  configur‚ 
+pour 63 lignes imprimables par page au maximum.
+
+* Les changements de page se font maintenant correctement sur toutes  les 
+imprimantes (enfin, je l'espŠre... contactez moi dans le cas  contraire), 
+normalement, le caractŠre de saut de page ‚tant Form Feed (ASCII  =  12), 
+aucun problŠme ne devrait se poser.
+
+* Pendant la s‚lection des options du menu, vous pouvez presser  F1  afin 
+d'avoir plusieurs ecrans d'aide.
+
+* Pendant l'impression, si vous appuyez sur <ESC>,  l'ordinateur  fera  une 
+pause (en papier continu uniquement). Pour quitter cette  pause,  appuyez 
+sur <SPACE> et le reste des fichiers s'imprimera. Si au  contraire,  vous 
+voulez abandonner l'impression, appuyez … nouveau sur <ESC>, le programme 
+reviendra au menu.
+
+* Pour la selection d'un nombre (ex: nombre de lignes par page), utilisez 
+les fleches haut et bas afin d'augmenter, ou de diminuer la valeur de  5; 
+et utilisez + et - afin d'incr‚menter, ou de  d‚crementer  cette  valeur. 
+L'appuit sur <ENTER> permet ‚videment de selectionner la nouvelle valeur, 
+tandis que <ESC> permet de reprendre l'ancienne.
+
+******************************************************************
+Mise … jour de cette doc: 24/06/1992.
+
+   Contactez moi pour me signaler les bugs et les am‚liorations  … 
+apporter … ce programme. Vous pouvez aussi me donner des id‚es  de 
+programmes utiles pour chacun de nous.
+
+
+(maj du 29/12/2024 : adresse postale de l'epoque retiree du fichier, me contacter depuis https://developpeur-pascal.fr ou https://olfsoftware.fr pour toute question)
+
+
