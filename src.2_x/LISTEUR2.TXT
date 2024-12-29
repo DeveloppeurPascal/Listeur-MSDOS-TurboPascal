@@ -1,0 +1,421 @@
+.topic _Index
+ Index g‚n‚ral Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Choisissez le menu dont vous voulez l'aide:
+ {ğ:_Menu_Info}
+ {File List:_Menu_File_List}
+ {Print List:_Impression}
+ {Options:_Menu_Options}
+
+Consultez aussi: les {directives:_msg_directives} et mon {adresse:_adr_auteur}...
+
+.topic _Menu_File_List
+ Menu File List Û
+   ÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Ce menu gŠre la liste des fichiers que vous voulez imprimer, mais il vous
+permet aussi d'acc‚der au DOS.
+
+Voir ses options:
+ {Select a file:_file_select}
+ {Erase list:_file_erase}
+ {Change dir:_file_ch_dir}
+ {DOS Shell:_file_dos_shell}
+ {Exit:_file_exit}
+
+.topic _menu_options
+ Menu Options Û
+   ÛÛÛÛÛÛÛÛÛÛÛÛ
+
+
+Ce menu permet de changer la configuration de l'ordinateur, et de l'imprimante.
+
+Voir ses options:
+ {Change Date:_ch_date}
+ {Chande Time:_ch_heure}
+ {Parameters:_smenu_parameters}
+ {Save options:_save_opt}
+ {Retrieve options:_load_opt}
+ {Default options:_default_opt}
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _smenu_parameters
+ Sous-menu Parameters Û
+   ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Ce sous-menu de Options permet de changer la configuration de votre imprimante.
+Vous pouvez grƒce … lui changer le format des pages, ou ce que vous ‚crirez en
+haut et en bas de chacune.
+
+Voir ses options:
+ {Printer:_param_printer}
+ {Messages:_param_msg}
+ {Others:_param_others}
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _Menu_Info
+ Informations sur Listeur: Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Ce logiciel a ‚t‚ con‡u en Turbo Pascal 6.0 par {Pr‚martin Patrick:_Adr_Auteur}.
+Il permet d'imprimer des fichiers au format ASCII en utilisant diverses options
+possibles.
+
+Cette version h‚rite des versions 1.x pour les diff‚rents algorithmes,
+mais aussi de {Turbo Vision:_Info_Borland} pour l'interface utilisateur.
+
+Pour d'autres renseignements, consultez l'{index:_Index} de cette aide.
+
+.topic _Adr_Auteur
+ Contacts Û
+    ÛÛÛÛÛÛÛ
+
+Voici mon adresse:
+ PREMARTIN PATRICK
+ LOT. LE SOULEIADO
+   13790 ROUSSET
+            FRANCE
+
+Veuillez me signaler les bogues et les am‚liorations possibles de ce programme.
+Le faisant, vous pourrez ainsi obtenir la derniŠre version de LISTEUR, ou me
+demander d'autres utilitaires dont je suis l'auteur.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _Info_Borland
+ Borland France Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Pour obtenir des renseignements sur les produits Borland, ‚crivez …:
+ BORLAND       FRANCE
+ 43, AVE. DE L'EUROPE
+ 78141  VELIZY  CEDEX
+               FRANCE
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _Ch_Heure
+ Options / Change Time Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Cette option permet de changer l'heure courante, il suffit que vous tapiez
+l'heure et les minutes que vous voulez.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _Ch_Date
+ Options / Change Date Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Cette option permet de changer la date courante, choisissez la nouvelle date
+dans le calendrier. La date actuelle est indiqu‚e dans une couleur diff‚rente
+des autres.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _Impression
+ Print List Û
+    ÛÛÛÛÛÛÛÛÛ
+
+Cette option vous permet d'imprimer les fichiers que vous avez s‚lectionn‚.
+Rien ne se passera si aucun fichier n'a ‚t‚ choisi...
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _Param_Printer
+ Options / Parameters / Printer Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Configurez le programme en lui sp‚cifiant quel papier vous utilisez, quelle
+en est la hauteur, combien de lignes vous voulez imprimer par page, quel est le
+num‚ro de la premiŠre page qui sera imprim‚e...
+
+Liste des options accessibles:
+
+* Paper Length : Nombre maximal de lignes par page (63 en A4).
+
+* Number of lines per page : Nombre effectif de ligne imprim‚es par page (53
+par d‚faut).
+
+* Line Length : Nombre de caractŠres par ligne (80 par d‚faut).
+
+* Paper type : papier friction (feuille … feuille) ou papier traction
+(listing).
+
+* First page number : num‚ro de la premiŠre page (1 par d‚faut). Voyez aussi
+les pr‚cisions sur les {messages:_param_msg} de haut et de bas de page.
+
+* Continue numeration : Si le bouton ON est activ‚, le num‚rotation des pages
+se fera en continu, sinon elle reprendra … 1 au d‚but de chaque fichier.
+
+* Exemplar number : Choisissez combien d'‚xemplaires de la liste vous voulez
+imprimer.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _param_msg
+ Options / Parameters / Messages Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Vous pouvez mettre des messages en haut et en bas des pages que vous imprimez.
+Ces messages ne prennent qu'une ligne sur la page courante, vous pouvez y
+inclure diverses {directives:_Msg_Directives} afin que le programme ne se
+contente pas d'imprimer une unique phrase r‚p‚t‚e sur toutes les pages.
+
+Si vous ne mettez aucun message en haut (ou en bas) d'une page, LISTEUR
+sautera une ligne; au contraire, si vous mettez une phrase (avec ou sans
+directives), LISTEUR se chargera de la transformer afin qu'elle puisse
+apparaitre centr‚e sur la feuille.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _Msg_Directives
+ Directives des messages Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+ $$ est remplac‚ par un '$' unique (seule fa‡on d'en avoir un),
+ $D est remplac‚ par la date courante (JJ/MM/AAAA),
+ $E est remplac‚ par l'extension du fichier en cours d'impression,
+ $F est remplac‚ par le nom du fichier en cours d'impression,
+ $N est remplac‚ par le nom du fichier (sans son extension),
+ $P est remplac‚ par le num‚ro de la  page en cours d'impression,
+ $T est remplac‚ par l'heure (HH:MM:SS).
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _Param_Others
+ Options / Parameters / Others Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Cette nouvelle boite de dialogue vous permet de changer divers paramŠtres:
+
+* Print end of line character : si cette option est activ‚e, LISTEUR imprimera
+syst‚matiquement un caractŠre … la fin de chaque ligne du fichier que vous
+allez imprimer.
+
+* Print line number : imprime le num‚ro de la ligne courante dans le fichier
+en cours d'impression lorsque cette option est coch‚e.
+
+* Default file extension : cette option vous permet de choisir quels fichiers
+apparaitront dans la fenˆtre de s‚lection lors de l'insertion d'un fichier dans
+la liste. 
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _file_select
+ File List / Select Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Cette option vous permet de selectionner un fichier … imprimer. Tous les
+fichiers selectionn‚s seront imprim‚s dans l'ordre de saisie de leur nom.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _file_Erase
+ File List / Erase List Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Si vous confirmez cette option, la liste de tous les fichiers que vous aurez
+selectionn‚s sera effac‚e, vous devrez en saisir une nouvelle avant de pouvoir
+imprimer.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _file_ch_dir
+ File List / Change Dir Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Cette option vous permet de changer le r‚pertoire et le lecteur par d‚faut.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _file_dos_shell
+ File List / Dos Shell Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Grace a cette option, vous pourrez aisement retourner sous DOS pour effectuer
+diverses op‚rations. Le retour au programme Listeur se fera par la frappe de
+la commande EXIT.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _file_exit
+ File List / Exit Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Cette option vous permet de quitter d‚finitivement LISTEUR. Toutes les
+op‚rations en cours seront suspendues... sauf l'impression d'un fichier grƒce
+au tampon de votre imprimante.
+
+Si vous devez arr‚ter votre ordinateur, n'oubliez pas d'attendre que
+l'imprimante se soit arr‚t‚e...sinon tout sera … recommencer.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _listeur
+ Listeur Û
+    ÛÛÛÛÛÛ
+
+R‚alis‚ par Patrick Pr‚martin en Turbo Pascal 6.0 (avec Turbo Vision), ce
+logiciel est distribu‚ en SHAREWARE. Si vous l'utilisez, vous devez envoyer un
+chŠque (ou un mandat postal international) d'un montant MINIMUM de 100 Francs
+Fran‡ais.
+
+Si vous avez un problŠme, n'h‚sitez pas … appuyer sur F1, ou … me contacter …
+cette {adresse:_adr_auteur}. Mais consultez d'abord l'{index:_index} de cette
+aide.
+
+.topic _listeur_demo
+ Listeur Û
+    ÛÛÛÛÛÛ
+
+R‚alis‚ par Patrick Pr‚martin en Turbo Pascal 6.0 (avec Turbo Vision), ce
+logiciel est distribu‚ en SHAREWARE. Si vous l'utilisez, vous devez envoyer un
+chŠque (ou un mandat postal international) d'un montant MINIMUM de 100 Francs
+Fran‡ais.
+
+Vous poss‚dez la version d'‚valuation, elle possŠde les fonctionnalit‚s de la
+version d‚finitive, mais elle ne peut imprimer que les deux premiŠres pages de
+chaque fichier. Pour vous procurer la version d‚finitive, veuillez payer les
+100 francs de la licence. Vous recevrez une licence d'utilisation et la
+derniŠre version de LISTEUR. 
+
+Si vous avez un problŠme, n'h‚sitez pas … appuyer sur F1, ou … me contacter …
+cette {adresse:_adr_auteur}. Mais consultez d'abord l'{index:_index} de cette
+aide.
+
+.topic _calendrier
+ Calendrier Û
+    ÛÛÛÛÛÛÛÛÛ
+
+La date courante est en vid‚o invers‚e. Pour choisir une nouvelle date,
+choisissez un jour avec les flŠches et ENTER (ou cliquez dessus). Vous pouvez
+changer de mois en appuyant sur PGUP et PGDN (ou en cliquant sur les flŠches
+en haut … droite du calendrier).
+
+Si vous appuyez sur ENTER, le jour s‚lectionn‚ deviendra la nouvelle date. Si
+vous appuyez sur ESC, la date ne changera pas.
+
+Si vous double_cliquez sur un jour, il deviendra la date courante. Pour fermer
+le calendrier avec la souris, cliquez sur le bouton en haut … gauche du cadre.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _ch_direct
+ Changement de r‚pertoire par d‚faut Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Pour passer d'un cadre … l'autre, utilisez TAB. d‚placez vous avec les flŠches
+du curseur pour choisir un nouveau r‚pertoire, puis s‚lectionnez le avec ENTER.
+Annulez la s‚lection en appuyant sur ESC. Utilisez la souris pour cliquer
+directement sur le nom du r‚pertoire choisi.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _file_selector
+ Selecteur de fichier Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Choisissez le fichier que vous voulez imprimer … l'aide des flŠches du curseur.
+Appuyez sur ENTER une fois votre choix effectu‚ ou sur ESC pour abandonner. Si
+vous utilisez la souris, cliquez sur le fichier que vous d‚sirez.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _horloge
+ Changement de l'heure Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Avec la souris, cliquez sur les flŠches pour changer d'heure, et double-cliquez
+sur l'heuyre ainsi obtenue pour la valider, sinon refermez la fenˆtre ce qui
+provoquera l'abandon de la nouvelle heure.
+
+Avec le clavier, utilisez les flŠches pour saisir l'heure. Gauche et droite
+vous permettent de s‚lectionner l'heure, les minutes ou les secondes. Haut et
+bas vous permettent d'augmenter ou de diminuer d'une unit‚. Vous validez la
+nouvelle heure par Enter et vous abandonnez avec Esc.        
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _check_boxes
+ Utilisation de ces boutons Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Utilisez les flŠches haut et bas pour changer d'option. Appuyez sur ESPACE pour
+selectionner [X] / d‚selectionner [ ] une option. Une fois votre choix fait,
+appuyez sur ENTER pour valider, ou sur ESC pour abandonner.
+
+Avec la souris, il vous suffit de cliquer sur l'option d‚sir‚e. Votre choix
+sera valid‚ par appuit sur OK. Abandonnez en cliquant CANCEL.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _radio_buttons
+ Utilisation de ces boutons Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Utilisez les flŠches haut et bas pour changer d'option. Une seule option peut
+ˆtre active, choisissez celle qui vous convient.
+
+Avec la souris, il vous suffit de cliquer sur l'option que vous d‚sirez.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _input_number
+ Utilisation de cette ligne de saisie Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Tapez le nombre qui vous convient, ou utilisez les touches PgUp et PgDn pour
+changer la valeur inscrite. Elle sera refus‚e si elle d‚passe les bornes fix‚es
+par le programme.
+
+Pour l'{index:_index} g‚n‚ral...
+
+
+.topic _input_line
+ Utilisation de cette ligne de saisie Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Tapez la chaine de caractŠres qui vous convient.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _save_opt
+ Options / Save options Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Cette option vous permet de sauver la configuration de Listeur dans le
+r‚pertoire courant. La liste de fichier n'est pas sauv‚e par cette option.
+
+Attention !!! Le r‚pertoire courant n'est pas forcement celui qui contient le
+programme...
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _load_opt
+ Options / Load Options Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Cette option va charger la configuration de Listeur que vous aviez sauv‚e. Si
+aucun fichier de configuration n'est trouv‚, l'op‚ration est abandonn‚e. La
+recherche se fera en premier dans le r‚pertoire courant, puis dans le chemin
+PATH d‚fini par le DOS.
+
+Attention !!! La confirmation de cette option entraŒnera la perte de la
+configuration actuelle.
+
+Pour l'{index:_index} g‚n‚ral...
+
+.topic _default_opt
+ Options / Default options Û
+    ÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛÛ
+
+Cette option (si vous confirmez), permettra au programme d'utiliser la
+configuration qu'il a lors de son chargement. Cela peut ˆtre pratique lorsque
+vous ne savez plus ce que vous avez modifi‚...
+
+Pour l'{index:_index} g‚n‚ral...
+
